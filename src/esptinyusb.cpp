@@ -15,16 +15,16 @@
 #if CONFIG_IDF_TARGET_ESP32S2 || CONFIG_IDF_TARGET_ESP32S3
 #if CONFIG_TINYUSB_ENABLED
 
-#define _manufacturer  "Espressif"
-#define _product  "ESP32 Arduino Device"
-#define _serial  "1234-5678"
+#define _manufacturer  "LifeGuard Youth"
+#define _product  "LGY ESP32 MIDI Simulator by Benedikt Frey, Florian Sengstock and Konrad Woehrle (2023)"
+#define _serial  "trust-in-god"
 
 #define _cdc "CDC class"
 #define _dfu  "DFU class"
 #define _hid  "HID class"
-#define _midi  "MIDI class"
+#define _midi  "LGY ESP32 MIDI Simulator"
 #define _msc  "MSC class"
-#define _vendor  "Vendor class (webUSB)"
+#define _vendor  "LifeGuard Youth"
 
 #define TAG __func__
 static EspTinyUSB* _device = NULL;
